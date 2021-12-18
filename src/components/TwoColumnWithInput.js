@@ -51,7 +51,7 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              Beautiful React Templates <span tw="text-primary-500">for you.</span>
+              Experience <span tw="text-primary-500">The Data Science.</span>
             </Heading>
             <Paragraph>
               Our templates are easy to setup, understand and customize. Fully modular components with a variety of

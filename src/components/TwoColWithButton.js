@@ -46,7 +46,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "With over 20 years of industry expertise, this allows us to engage with you across a multitude of business sectors and markets enabling your organization to adopt digital processes and offshore models to achieve outstanding results. We help you achieve this through enterprise-wide digital transformation, efficiency, and optimization of your IT environment. Working together under the remit of delivering digital solutions combined with our deep domain and strategic knowledge allows us to offer a highly sophisticated approach to your business no matter the size. The relationship between the founders dates back more than a decade, engaged at a global digital communications organization with the remit of delivering data management technical solutions, bespoke analytical tools, and agile flow implementation for global clients. Our unique flexible outsourcing model enables seamless integration with your process, bringing significant cost savings, whilst enabling you to focus on your core requirements.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,

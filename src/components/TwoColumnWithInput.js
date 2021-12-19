@@ -54,8 +54,7 @@ export default ({ roundedHeaderButton }) => {
               Experience <span tw="text-primary-500">The Data Science.</span>
             </Heading>
             <Paragraph>
-              Our templates are easy to setup, understand and customize. Fully modular components with a variety of
-              pages and components.
+            A global provider of digital experts in technology and offshore solutions.
             </Paragraph>
             <Actions>
               <input type="text" placeholder="Your E-mail Address" />

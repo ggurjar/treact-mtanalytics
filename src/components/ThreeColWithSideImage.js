@@ -68,11 +68,31 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
       title: "Secure",
       description: "We strictly only deal with vendors that provide top notch security."
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" }
+    {
+      imageSrc: SupportIconImage,
+      title: "24/7 Support",
+      description: "● Liaise with the support team and take them through the configuration. ● Walkthrough all data source and external interfaces ● Transition the codebase – this will include walkthroughs, documentation, Cloud environment ● Handover all supplementary documentation including user guides, admin guides, etc ● The last step is to shadow the support team and provide support when required"
+    },
+    { 
+      imageSrc: CustomizeIconImage,
+      title: "Customizable",
+      description: "Post project development, We will enable your Cloud-based solution and transition this into a support package. This can either be managed by our client support team or a 3rd Party support team."
+    },
+    { 
+      imageSrc: ReliableIconImage,
+      title: "Reliable",
+      description: "Our experienced consultants help deliver your project to successful completion and mentor your internal stakeholder teams by adopting a structured process approach. Agile is our preferred approach and works best if there is a strong working relationship between the business, its users, and the development team. Our approach is based on many years of experience in developing systems through exploration, business analysis, and prototyping."
+    },
+    { 
+      imageSrc: FastIconImage, 
+      title: "Fast",
+      description: "We as a team utilize the skills of people on the ground in the US for business analytics, client liaison, technical architecture and development offshore support, for build and testing prior to client deployment. Teams are structured to exploit technical knowledge and maintain experience within the group, whether working on projects or in agile."
+    },
+    { 
+      imageSrc: SimpleIconImage,
+      title: "Easy",
+      description: "Our business model is focused on maximizing and utilizing the experience of the senior team, with a flexible and agile approach to upscaling and downscaling FTEs as and when necessary for projects, which delivers cost savings passed on to the client. This is made possible by careful segmentation and simplification of requirements, enabling a streamlined approach to development, where the skills of the IT professional are focused on coding and leaving the nuances of requirement analysis and project management to the respective business leads."
+    }
   ];
 
   if (!cards) cards = defaultCards;

@@ -62,12 +62,12 @@ export default ({
       description: "Create an account with us using Google or Facebook."
     },
     {
-      heading: "Download",
-      description: "Browse and Download the template that you like from the marketplace."
+      heading: "Contract",
+      description: "We offer contractual services for building skeleton of our crafts and signed through NDAs to drive projects further."
     },
     {
       heading: "Run",
-      description: "Follow the instructions to setup and customize the template to your needs."
+      description: "Run for 3 months contract initially and Get the taste of energies to explore more."
     }
   ];
 

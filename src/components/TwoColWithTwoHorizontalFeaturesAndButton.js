@@ -65,7 +65,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Our experienced consultants help deliver your project to successful completion and mentor your internal stakeholder teams by adopting a structured process approach. Agile is our preferred approach and works best if there is a strong working relationship between the business, its users, and the development team. Our approach is based on many years of experience in developing systems through exploration, business analysis, and prototyping. Our Project Managers have a thorough understanding of business concepts and many years of cross-sector experience.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,
@@ -90,7 +90,7 @@ export default ({
     {
       Icon: BriefcaseIcon,
       title: "Professionalism",
-      description: "We have the best professional marketing people across the globe just to work with you.",
+      description: "We have the best data science professionals people across the globe just to work with you.",
       iconContainerCss: tw`bg-teal-300 text-teal-800`
     },
     {

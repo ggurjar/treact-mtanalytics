@@ -70,7 +70,7 @@ export default function App() {
         {
           Icon: BriefcaseIcon,
           title: "Professionalism",
-          description: "We assure you that our templates are designed and created by professional designers.",
+          description: "We assure you that our crafts are engineered and created by professional python geeks and javascript developers.",
           iconContainerCss: tw`bg-red-300 text-red-800`
         }
       ]}

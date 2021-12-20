@@ -86,24 +86,24 @@ export default function App() {
         {
           name: "Skeleton",
           price: "$24.99",
-          duration: "Monthly",
+          duration: "Hourly",
           mainFeature: "For Individuals",
           features: ["01 Senior Javascript Developer", "01 Junior Javascript Developer", "01 Senior Data Engineer", "01 Senior Business Analyst"]
         },
         {
           name: "Business",
           price: "$37.99",
-          duration: "Monthly",
+          duration: "Hourly",
           mainFeature: "For Small Businesses",
-          features: ["60 Templates", "15 Landing Pages", "22 Internal Pages", "Priority Assistance"],
+          features: ["With CI/CD Implementation", "01 Senior Javascript Developer", "02 Junior Javascript Developer (on $24.99 HOURLY)","01 Senior Data Engineer", "02 Junior Data Engineer (on $24.99 HOURLY)","01 Senior Business Analyst","01 Junior Business Analyst (on $24.99 HOURLY)","01 Project Manager","Priority Assistance"],
           featured: true
         },
         {
           name: "Enterprise",
           price: "$57.99",
-          duration: "Monthly",
+          duration: "Hourly",
           mainFeature: "For Large Companies",
-          features: ["90 Templates", "27 Landing Pages", "37 Internal Pages", "Personal Assistance"]
+          features: ["02 Senior Javascript Developer", "05 Junior Javascript Developer (on $24.99 HOURLY)", "01 Senior Data Engineer", "05 Junior Data Engineer (on $24.99 HOURLY)","01 Senior Business Analyst","01 Project Manager","CI/CD Implementation with no extra cost","Personal Assistance"]
         }
       ]}
     />

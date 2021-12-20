@@ -84,11 +84,11 @@ export default function App() {
       }
       plans={[
         {
-          name: "Personal",
-          price: "$17.99",
+          name: "Skeleton",
+          price: "$24.99",
           duration: "Monthly",
           mainFeature: "For Individuals",
-          features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"]
+          features: ["01 Senior Javascript Developer", "01 Junior Javascript Developer", "01 Senior Data Engineer", "01 Senior Business Analyst"]
         },
         {
           name: "Business",

@@ -9,7 +9,7 @@ import MainFeature from "./components/TwoColWithButton.js";
 import MainFeature2 from "./components/TwoColWithTwoHorizontalFeaturesAndButton.js";
 import FeatureWithSteps from "./components/TwoColWithSteps.js";
 import Pricing from "./components/ThreePlans.js";
-import Testimonial from "./components/TwoColumnWithImageAndRating.js";
+// import Testimonial from "./components/TwoColumnWithImageAndRating.js";
 import FAQ from "./components/SingleCol.js";
 import GetStarted from "./components/GetStarted";
 import Footer from "./components/FiveColumnWithBackground.js";
@@ -91,23 +91,23 @@ export default function App() {
           features: ["01 Senior Javascript Developer", "01 Junior Javascript Developer", "01 Senior Data Engineer", "01 Senior Business Analyst"]
         },
         {
-          name: "Business",
+          name: "Body",
           price: "$37.99",
           duration: "Hourly",
           mainFeature: "For Small Businesses",
-          features: ["With CI/CD Implementation", "01 Senior Javascript Developer", "02 Junior Javascript Developer (on $24.99 HOURLY)","01 Senior Data Engineer", "02 Junior Data Engineer (on $24.99 HOURLY)","01 Senior Business Analyst","01 Junior Business Analyst (on $24.99 HOURLY)","01 Project Manager","Priority Assistance"],
+          features: ["With CI/CD Implementation", "01 Senior UI/UX Developer","01 Senior Javascript Developer", "02 Junior Javascript Developers (on $24.99 HOURLY)","01 Senior Data Engineer", "02 Junior Data Engineers (on $24.99 HOURLY)","01 Senior Business Analyst","01 Junior Business Analyst (on $24.99 HOURLY)","01 Project Manager","Priority Assistance"],
           featured: true
         },
         {
-          name: "Enterprise",
+          name: "Athlete",
           price: "$57.99",
           duration: "Hourly",
           mainFeature: "For Large Companies",
-          features: ["02 Senior Javascript Developer", "05 Junior Javascript Developer (on $24.99 HOURLY)", "01 Senior Data Engineer", "05 Junior Data Engineer (on $24.99 HOURLY)","01 Senior Business Analyst","01 Project Manager","CI/CD Implementation with no extra cost","Personal Assistance"]
+          features: ["02 Senior Javascript Developers", "01 Senior UI/UX Developer","02 Junior UI/UX Developers (on $24.99 HOURLY)","05 Junior Javascript Developers (on $24.99 HOURLY)", "01 Senior Data Engineer", "05 Junior Data Engineers (on $24.99 HOURLY)","01 Senior Business Analyst","01 Project Manager","CI/CD Implementation with no extra cost","Personal Optimal Assistance"]
         }
       ]}
     />
-    <Testimonial
+    {/* <Testimonial
       subheading={<Subheading>Testimonials</Subheading>}
       heading={
         <>
@@ -136,7 +136,7 @@ export default function App() {
           customerTitle: "Founder, EventsNYC"
         }
       ]}
-    />
+    /> */}
     <FAQ
       subheading={<Subheading>FAQS</Subheading>}
       heading={
@@ -146,34 +146,29 @@ export default function App() {
       }
       faqs={[
         {
-          question: "Are all the templates easily customizable ?",
+          question: "Are all the plans easily customizable ?",
           answer:
-            "Yes, they all are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "Yes, they all are."
         },
         {
           question: "How long do you usually support an standalone template for ?",
           answer:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "All plans are set for 3 months renewable period and can be stopped after a completion of every 3 months."
         },
         {
           question: "What kind of payment methods do you accept ?",
           answer:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "Currently, we support Credit Card payments, and Direct Bank Transfers."
         },
         {
-          question: "Is there a subscribption service to get the latest templates ?",
+          question: "Is there a discounted subscription service to drive the wheels better ?",
           answer:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "Yes for Small Businesses and Large companies"
         },
         {
-          question: "Are the templates compatible with the React ?",
+          question: "Do you really support on Communication Channels ?",
           answer:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        },
-        {
-          question: "Do you really support Internet Explorer 11 ?",
-          answer:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "We support on Emails, and Microsoft Teams"
         }
       ]}
     />

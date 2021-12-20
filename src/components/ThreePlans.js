@@ -85,7 +85,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob)`
 export default ({
   subheading = "Pricing",
   heading = "Flexible Plans.",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description = "All plans are set for 3 months renewable period and can be stopped after a completion of every 3 months.",
   plans = null,
   primaryButtonText = "Buy Now"
 }) => {

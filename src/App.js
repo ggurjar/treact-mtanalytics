@@ -29,7 +29,7 @@ export default function App() {
       subheading={<Subheading>Features</Subheading>}
       heading={
         <>
-          We have Amazing <HighlightedText>Service.</HighlightedText>
+          We have Amazing <HighlightedText>Services.</HighlightedText>
         </>
       }
     />
